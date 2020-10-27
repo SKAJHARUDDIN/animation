@@ -1,0 +1,43 @@
+.box{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: red;
+    position: relative;
+    /* animation-name: ajhar;
+    animation-duration: 5s;
+    animation-delay: .5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: backwards;
+    animation-timing-function: ease; */
+    animation: ajhar 5s ease-in .5s infinite alternate backwards;
+}
+
+@keyframes ajhar{
+    0%{
+        background-color: orange;
+        left: 0;
+        top: 0;
+    }
+    25%{
+        background-color: green;
+        left: 200px;
+        top: 0;
+    }
+    50%{
+        background-color: yellow;
+        left: 200px;
+        top: 200px;
+    }
+    75%{
+        background-color: royalblue;
+        left: 0;
+        top: 200px;
+    }
+    100%{
+        background-color: black;
+        left: 0;
+        top: 0;
+    }
+}
